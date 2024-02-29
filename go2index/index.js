@@ -22,16 +22,15 @@ var  authConfig  =  {
    */
   roots: [
     {
-      id: "",
-      name: "TeamDrive",
-      pass: "",
+      id: "root",
+      name: "Personal Drive",
     },
     {
-      id: "root",
+      id: "",
       name: "PrivateDrive",
       user: "",
       pass: "",
-      protect_file_link: true,
+      protect_file_link: false,
     },
     {
       id: "",
